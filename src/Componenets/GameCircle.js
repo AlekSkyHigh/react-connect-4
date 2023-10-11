@@ -9,7 +9,7 @@ const onClick = (ev, id) => {
 const GameCircle = ({ id, children }) => {
 
     return (
-        <div className="gameCircle" style={id % 2 === 0 ? {backgroundColor: 'red'} : {backgroundColor: 'blue'}} onClick={(ev) => onClick(ev, id)}>
+        <div className={`gameCircle ${id % 2 === 0 ? "odd" : "even"}`} onClick={(ev) => onClick(ev, id)}>
             {children}
         </div>
     )
