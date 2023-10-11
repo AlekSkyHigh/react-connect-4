@@ -2,10 +2,10 @@ import React from "react";
 
 import '../Game.css';
 
-const GameCircle = ({ id, children, onCircleClicked }) => {
+const GameCircle = ({ id, children, className, onCircleClicked }) => {
 
     return (
-        <div className={`gameCircle ${id % 2 === 0 ? "odd" : "even"}`} onClick={(ev) => onCircleClicked(id)}>
+        <div className={`gameCircle ${className}`} onClick={(ev) => onCircleClicked(id)}>
             {children}
         </div>
     )
