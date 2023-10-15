@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import GameBoard from './Componenets/GameBoard';
+import App from './Componenets/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <GameBoard />
+    <App />
 );
