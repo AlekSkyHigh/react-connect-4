@@ -105,3 +105,20 @@ body {
 .player_2 {
     background-color: green;
 }
+
+@media (max-width: 768px) {
+    .app-container {
+        display: flex;
+        width: 900px;
+        height: 900px;
+        position: absolute;
+        left: 50%;
+        top: 35%;
+        margin-left: -260px;
+    }
+
+    .footer {
+        top: 800px;
+    }
+    
+}
