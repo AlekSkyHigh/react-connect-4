@@ -49,14 +49,14 @@ body {
     margin-left: -120px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-left: 15px;
 }
 
 .footer button {
-    width: 140px;
+    position: relative;
+    left: 50%;
+    top: 20%;
+    width: 150px;
     height: 50px;
-    margin-left: -5px;
-    margin-top: 15px;
     background-color: lightblue;
     font-size: 20px;
     -webkit-box-shadow: 7px 5px 15px 3px rgba(0, 0, 0, 0.9);
@@ -103,5 +103,5 @@ body {
 }
 
 .player_2 {
-    background-color: blue;
+    background-color: green;
 }
