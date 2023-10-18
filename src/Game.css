@@ -99,26 +99,26 @@ body {
 }
 
 .player_1 {
-    background-color: red;
+    background-color:blue;
 }
 
 .player_2 {
-    background-color: green;
+    background-color:red;
 }
 
 @media (max-width: 768px) {
+
     .app-container {
-        display: flex;
-        width: 900px;
-        height: 900px;
+        width: 200%;
+        height: 100%;
         position: absolute;
-        left: 50%;
-        top: 35%;
-        margin-left: -260px;
+        left: auto;
+        top: auto;
+        margin: 0;
     }
 
     .footer {
         top: 800px;
     }
-    
+
 }
